@@ -4,9 +4,9 @@ namespace BlazorApp1.Data
     {
         public DateTime Date { get; set; }
 
-        public int TemperatureC { get; set; }
+        public int TemperatureC = 150;
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        public int TemperatureF => 9001;
 
         public string? Summary { get; set; }
     }
