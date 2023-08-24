@@ -13,7 +13,8 @@ namespace BlazorApp1.Data
             {
                 Date = startDate.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)], 
+                DewPoint = Random.Shared.Next(-20, 55)
             }).ToArray());
         }
     }
