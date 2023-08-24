@@ -1,6 +1,7 @@
 using BlazorApp1.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using System.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,5 +30,8 @@ app.UseRouting();
 
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
+
+string url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
+Process.Start(url);
 
 app.Run();
