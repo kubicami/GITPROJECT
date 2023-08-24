@@ -1,0 +1,2 @@
+# GITPROJECT
+sdileny repozitar
