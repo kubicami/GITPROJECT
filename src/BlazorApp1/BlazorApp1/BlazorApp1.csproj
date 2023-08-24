@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\open-iconic\7ws3k0%281%29.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wwwroot\css\open-iconic\7ws3k0(1).jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
 </Project>
