@@ -31,7 +31,5 @@ app.UseRouting();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
-string url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
-Process.Start(url);
 
 app.Run();
